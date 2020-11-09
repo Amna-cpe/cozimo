@@ -1,0 +1,27 @@
+.sideSection{
+    width: 11%;
+    position: fixed;
+    left: 0;
+    top:50px;
+    height: 100vh;
+    background-color: #0a0a0a;
+    color:white;
+}
+.sideSection__list{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+    width:70%
+}
+.sideSection__category{
+    margin-top:20px;
+    font-weight: 900;
+    cursor: pointer;
+   
+}
+.sideSection__category:hover{
+ background-color: #327a77;
+ width: 100%;
+
+}
